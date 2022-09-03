@@ -1,10 +1,10 @@
 import './App.css';
+import 'mdb-react-ui-kit/dist/css/mdb.min.css'
+import LoginRegister from './components/LoginRegister';
 
 function App() {
   return (
-    <div className="App">
-    <h1>Hello World!</h1>
-    </div>
+    <LoginRegister />
   );
 }
 
