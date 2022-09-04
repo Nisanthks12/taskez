@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { MDBTabsPane, MDBTabsContent, MDBTabsLink, MDBTabsItem, MDBTabs, MDBCard, MDBContainer, MDBCol, MDBRow, MDBBtn, MDBInput, MDBCheckbox, MDBCardBody, MDBCardHeader } from 'mdb-react-ui-kit';
 import './LoginRegister.css';
-// importing assets folder
 import pic from '../assets/SignIn_vectorPic.svg';
 
 

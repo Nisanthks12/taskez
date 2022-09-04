@@ -1,0 +1,25 @@
+.App {
+	display: flex;
+	font-family: 'Poppins', sans-serif;
+	font-style: normal;
+}
+
+.side-nav {
+	top : 0;
+	left : 0;
+	position: fixed;
+	display: flex;
+	flex-shrink: 1;
+	flex-direction: column;
+	min-width: 310px;
+	text-align: center;
+	height: 100%;
+	background-color: #ffffff;
+}
+
+.task-box {
+	flex: 1;
+	margin-left: 310px;
+	background-color: #fefefe;
+	border-inline: 1.5px solid #f0f0f0;
+}
