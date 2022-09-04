@@ -1,47 +1,47 @@
 # .taskez
 
-A React based ToDo app.
 
-This project was bootstrapped with React.
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+An app made with React to manage your tasks. This app was made solely for a challenge to myself to learn React and to complete the assignment within 3 days.
 
 
-### Deployment
+## Project Status
+- [X] Basic UI of the login screen and the home screen using MDB UI Kit.
+- [X] Basic functionality of adding tasks into the list using States and Hooks.
+- [X] Basic movement between pages using React Router.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+---
+## Project Screen Shots
+
+![ScreenShot](screenshots/LoginPage.png)
+![ScreenShot](screenshots/SignUpPage.png)
+![ScreenShot](screenshots/HomeScreen.png)
+![ScreenShot](screenshots/HomeScreenWithTasks.png)
+
+## Installation and Setup Instructions
+
+#### Example:  
+
+Clone down this repository. You will need `node` and `npm` installed globally on your machine.  
+
+Installation:
+
+`npm install`  
+
+To Start Server:
+
+`npm start`  
+
+To Visit App:
+
+`localhost:3000`  
+
+## Reflection
+
+This was a 3-day long project built as a part of the FrontEnd Founding Engineer Role interview of [YouShd](https://www.youshd.com/). The project design was shared as a figma file. Project goals included making the frontend of a To-Do app built using React. 
+
+Originally I wanted to build an app and host it on the internet that allowed users to efficiently manage their everyday task using a Kan-ban board style User-Interface. I started this process by using the `create-react-app` boilerplate.  
+
+
+The main challenge of the this project was that I was a complete beginner in React and I had to learn it from scratch. I had to learn the basics of React and then learn how to use React Router and MDB UI Kit. I also had to learn how to use React Hooks to manage the state of the app. I had to learn all of this in 3 days. I was able to complete only the UI and skeletal functionalities of the project within 3 days and I learned a lot about React in the process.
+
+I chose to use the `create-react-app` boilerplate to minimize initial setup and invest more time in diving into weird technological rabbit holes. In the next iteration I plan on making the app interactive and functional for users with at least some basic functionalities. 
