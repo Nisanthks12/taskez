@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { MDBTabsPane, MDBTabsContent, MDBTabsLink, MDBTabsItem, MDBTabs, MDBCard, MDBContainer, MDBCol, MDBRow, MDBBtn, MDBInput, MDBCheckbox, MDBCardBody, MDBCardHeader } from 'mdb-react-ui-kit';
 import './LoginRegister.css';
 import pic from '../assets/SignIn_vectorPic.svg';
+import { Link } from 'react-router-dom';
 
 
 
@@ -23,7 +24,7 @@ const LoginRegister = () => {
       <MDBRow className="d-flex align-items-center justify-content-center">
 
         <MDBCol col='10' md='5'>
-          <img src={pic} className="img-fluid" alt="Vector Pic"/>
+          <img src={pic} className="img-fluid" alt="Vector Pic" />
         </MDBCol>
 
         <MDBCol col='4' md='6'>
@@ -56,9 +57,11 @@ const LoginRegister = () => {
                   <MDBInput wrapperClass='mb-4' label='Email' id='formControlLg' type='email' size="lg" />
                   <MDBInput wrapperClass='mb-4' label='Password' id='formControlLg' type='password' size="lg" />
 
-                  <div className='text-center text-md-start mt-4 pt-2 d-grid'>
-                    <MDBBtn className="mb-0 px-5 text-capitalize" size='lg'>Log In</MDBBtn>
-                  </div>
+                  <Link to='/home'>
+                    <div className='text-center text-md-start mt-4 pt-2 d-grid'>
+                      <MDBBtn className="mb-0 px-5 text-capitalize" size='lg'>Log In</MDBBtn>
+                    </div>
+                  </Link>
 
                   <div className="d-flex justify-content-between mt-4 pt-2">
                     <MDBCheckbox name='flexCheck' value='' id='flexCheckDefault' label='Remember me' />
@@ -72,9 +75,12 @@ const LoginRegister = () => {
                   <MDBInput wrapperClass='mb-4' label='Email' id='formControlLg' type='email' size="lg" />
                   <MDBInput wrapperClass='mb-4' label='Password' id='formControlLg' type='password' size="lg" />
 
-                  <div className='text-center text-md-start mt-4 pt-2 d-grid'>
-                    <MDBBtn className="mb-0 px-5 text-capitalize" size='lg'>Sign up</MDBBtn>
-                  </div>
+                  <Link to='/home'>
+                    <div className='text-center text-md-start mt-4 pt-2 d-grid'>
+                      <MDBBtn className="mb-0 px-5 text-capitalize" size='lg'>Sign up</MDBBtn>
+                    </div>
+                  </Link>
+
                   <div className="d-flex justify-content-between mt-4 pt-2">
                     <MDBCheckbox name='flexCheck' value='' id='flexCheckDefault' label='Remember me' />
                   </div>

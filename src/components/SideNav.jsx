@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const SideNav = () => {
 	return (
@@ -27,9 +28,11 @@ const SideNav = () => {
 				<div className='event-bar-footer-item'>
 					<div className='event'>Setting</div>
 				</div>
-				<div className='event-bar-footer-item'>
-					<div className='event'>Log Out</div>
-				</div>
+				<Link to='/'>
+					<div className='event-bar-footer-item'>
+						<div className='event'>Log Out</div>
+					</div>
+				</Link>
 			</div>
 		</div>
 	);
