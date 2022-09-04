@@ -19,8 +19,6 @@ An app made with React to manage your tasks. This app was made solely for a chal
 
 ## Installation and Setup Instructions
 
-#### Example:  
-
 Clone down this repository. You will need `node` and `npm` installed globally on your machine.  
 
 Installation:
@@ -34,6 +32,17 @@ To Start Server:
 To Visit App:
 
 `localhost:3000`  
+
+## Navigating the app:
+- The first page you will see is the login page. 
+- You can either view the login or signup options by selecting the corresponding tab.
+- Authentication and Verification is not yet implemented.
+- Clicking on "Log In" or "Sign Up" Button will take you to the home screen.
+- You can add tasks by clicking on the "+" button on any of the three columns.
+- A pop up will appear where you can enter the name and task details.
+- You should see the task appear in the corresponding column.
+- Drag and drop functionality is not yet implemented.
+- Clicking on the Log Out button will take you back to the login page.
 
 ## Reflection
 
